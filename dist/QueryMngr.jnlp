@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="QueryMngr.jnlp">
+  <information>
+    <title>QueryMngr</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="QueryMngr.jar" size="172627" download="eager" />
+    <jar href="lib\appdriver-agent.jar" size="86333" download="eager" />
+    <jar href="lib\appdriver-agentfx-ui.jar" size="230176" download="eager" />
+    <jar href="lib\appdriver-agentfx.jar" size="119137" download="eager" />
+    <jar href="lib\appdriver-base.jar" size="146357" download="eager" />
+    <jar href="lib\appdriver-constant.jar" size="10194" download="eager" />
+    <jar href="lib\appdriver-iface.jar" size="6229" download="eager" />
+    <jar href="lib\bcprov-jdk18on-175.jar" size="8321289" download="eager" />
+    <jar href="lib\commons-beanutils-1.9.2.jar" size="233857" download="eager" />
+    <jar href="lib\commons-codec-1.11.jar" size="335042" download="eager" />
+    <jar href="lib\commons-dbcp-1.2.2.jar" size="121757" download="eager" />
+    <jar href="lib\commons-dbcp2-2.7.0.jar" size="208475" download="eager" />
+    <jar href="lib\commons-lang-2.1.jar" size="207723" download="eager" />
+    <jar href="lib\commons-lang3-3.3.2.jar" size="412740" download="eager" />
+    <jar href="lib\commons-logging-1.1.1.jar" size="60686" download="eager" />
+    <jar href="lib\commons-pool2-2.4.2.jar" size="111969" download="eager" />
+    <jar href="lib\controlsfx-8.40.12.jar" size="996389" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\json-simple-1.1.1.jar" size="23737" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.49.jar" size="1006904" download="eager" />
+    <jar href="lib\poi-4.1.0.jar" size="2754042" download="eager" />
+    <jar href="lib\querymanagerfx-base.jar" size="38263" download="eager" />
+    <jar href="lib\replication-utility.jar" size="36894" download="eager" />
+    <jar href="lib\rmj-lib.jar" size="63175" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="org.rmj.querymngr.views.QueryManagerFxV2"  name="QueryMngr" />
+  <update check="always"/>
+</jnlp>
