@@ -715,9 +715,10 @@ public class MainInterfaceController implements Initializable {
                 try{
                      //Iterate Row
                     ObservableList<String> row = FXCollections.observableArrayList();
-                    for(int i=1 ; i<=p_oTrans.getResult().getMetaData().getColumnCount(); i++){
+                    for(int i=1 ; i <= p_oTrans.getResult().getMetaData().getColumnCount(); i++){
                         //Iterate Column
-                        row.add(p_oTrans.getResult().getString(i));
+                        //row.add(p_oTrans.getResult().getString(i));
+                        row.add(String.valueOf(p_oTrans.getResult().getObject(i)));
                     }
                        data.add(row);
                 }catch(java.sql.SQLException ex){
@@ -749,22 +750,7 @@ public class MainInterfaceController implements Initializable {
         ResultSet name;
         txtField00.setText((String) p_oTrans.getBranchName());
         lblIpAddress.setText((String) p_oTrans.getBranchIP());
-        
-        String lsQuery = "SELECT" +
-                            "  IFNULL(b.sCompnyNm, 'CLIENT NOT REGISTERED')" +
-                        " FROM xxxSysUser a" +
-                            ", Client_Master b" +
-                        " WHERE a.sEmployNo = b.sClientID" +
-                            " AND sUserIDxx = " + SQLUtil.toSQL(poGRider.getUserID());
-        
-        name= poGRider.executeQuery(lsQuery);
-        try {
-            while(name.next())
-                lblUser.setText(name.getString(1));
-        } catch (SQLException ex) {
-            Logger.getLogger(MainInterfaceController.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
+        lblUser.setText(poGRider.getLogName());
     }
     
     private void clearFields() {

@@ -8,12 +8,12 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="QueryMngr.jar" size="172627" download="eager" />
-    <jar href="lib\appdriver-agent.jar" size="86333" download="eager" />
+    <jar href="QueryMngr.jar" size="172407" download="eager" />
+    <jar href="lib\appdriver-agent.jar" size="86341" download="eager" />
     <jar href="lib\appdriver-agentfx-ui.jar" size="230176" download="eager" />
-    <jar href="lib\appdriver-agentfx.jar" size="119137" download="eager" />
-    <jar href="lib\appdriver-base.jar" size="146357" download="eager" />
-    <jar href="lib\appdriver-constant.jar" size="10194" download="eager" />
+    <jar href="lib\appdriver-agentfx.jar" size="121272" download="eager" />
+    <jar href="lib\appdriver-base.jar" size="160875" download="eager" />
+    <jar href="lib\appdriver-constant.jar" size="12216" download="eager" />
     <jar href="lib\appdriver-iface.jar" size="6229" download="eager" />
     <jar href="lib\bcprov-jdk18on-175.jar" size="8321289" download="eager" />
     <jar href="lib\commons-beanutils-1.9.2.jar" size="233857" download="eager" />
@@ -29,9 +29,9 @@
     <jar href="lib\json-simple-1.1.1.jar" size="23737" download="eager" />
     <jar href="lib\mysql-connector-java-5.1.49.jar" size="1006904" download="eager" />
     <jar href="lib\poi-4.1.0.jar" size="2754042" download="eager" />
-    <jar href="lib\querymanagerfx-base.jar" size="38263" download="eager" />
-    <jar href="lib\replication-utility.jar" size="36894" download="eager" />
-    <jar href="lib\rmj-lib.jar" size="63175" download="eager" />
+    <jar href="lib\querymanagerfx-base.jar" size="38261" download="eager" />
+    <jar href="lib\replication-utility.jar" size="36947" download="eager" />
+    <jar href="lib\rmj-lib.jar" size="63978" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="org.rmj.querymngr.views.QueryManagerFxV2"  name="QueryMngr" />
   <update check="always"/>

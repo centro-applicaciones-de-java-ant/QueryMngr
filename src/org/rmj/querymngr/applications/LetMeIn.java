@@ -7,7 +7,7 @@ import org.rmj.querymngr.views.QueryManagerFxV2;
 
 public class LetMeIn {
     public static void main (String args[]){
-        String lsProdctID = "QueryMngr";
+        String lsProdctID = "gRider";
         String lsUserIDxx = "M001111122";
         
         String path;
